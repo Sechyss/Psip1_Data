@@ -1,0 +1,314 @@
+IQ-TREE 2.2.0 COVID-edition built Jun  1 2022
+
+Input file name: alberto\RefSe_plusAndrew_-20.muscle
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 70242
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 29 sequences with 3213 amino-acid sites
+Number of constant sites: 1180 (= 36.7258% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1180 (= 36.7258% of all sites)
+Number of parsimony informative sites: 910
+Number of distinct site patterns: 2132
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: WAG+F+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+WAG+F+I+G4       -48922.913   97997.826 +    0.916   98001.558 +    0.916   98459.523 +    0.916
+Blosum62+F+I+G4  -48925.304   98002.609 +   0.0838   98006.341 +   0.0838   98464.305 +   0.0838
+VT+F+I+G4        -48932.434   98016.867 - 6.72e-05   98020.600 - 6.72e-05   98478.564 - 6.72e-05
+Q.pfam+F+I+G4    -48937.922   98027.843 - 2.78e-07   98031.575 - 2.78e-07   98489.540 - 2.78e-07
+PMB+F+I+G4       -48938.844   98029.689 -  1.1e-07   98033.421 -  1.1e-07   98491.385 -  1.1e-07
+LG+F+I+G4        -48994.323   98140.646 - 8.89e-32   98144.378 - 8.89e-32   98602.343 - 8.89e-32
+WAG+I+G4         -49120.054   98354.108 - 3.95e-78   98356.204 - 8.95e-78   98700.381 - 4.57e-53
+rtREV+F+I+G4     -49070.452   98292.903 - 7.71e-65   98296.635 - 7.71e-65   98754.600 - 7.71e-65
+Q.pfam+I+G4      -49204.890   98523.781 - 5.65e-115   98525.877 - 1.28e-114   98870.054 - 6.55e-90
+Q.yeast+F+I+G4   -49137.418   98426.835 - 6.37e-94   98430.567 - 6.37e-94   98888.532 - 6.37e-94
+VT+I+G4          -49222.095   98558.189 - 1.91e-122   98560.285 - 4.32e-122   98904.462 - 2.21e-97
+cpREV+F+I+G4     -49219.688   98591.376 - 1.19e-129   98595.108 - 1.19e-129   99053.073 - 1.19e-129
+Q.insect+F+I+G4  -49251.897   98655.793 - 1.22e-143   98659.525 - 1.22e-143   99117.490 - 1.22e-143
+Blosum62+I+G4    -49379.026   98872.053 - 1.34e-190   98874.149 - 3.03e-190   99218.326 - 1.55e-165
+LG+I+G4          -49398.198   98910.397 - 6.31e-199   98912.492 - 1.43e-198   99256.669 - 7.31e-174
+PMB+I+G4         -49398.780   98911.559 - 3.53e-199   98913.655 - 7.99e-199   99257.832 - 4.09e-174
+JTTDCMut+F+I+G4  -49336.264   98824.528 - 2.79e-180   98828.260 - 2.79e-180   99286.225 - 2.79e-180
+JTT+F+I+G4       -49350.025   98852.050 - 2.95e-186   98855.782 - 2.95e-186   99313.747 - 2.95e-186
+LG+G4            -49471.451   99054.901 - 2.64e-230   99056.924 - 6.2e-230   99395.099 - 6.37e-204
+DCMut+F+I+G4     -49398.450   98948.900 - 2.75e-207   98952.632 - 2.75e-207   99410.597 - 2.75e-207
+Dayhoff+F+I+G4   -49401.075   98954.151 - 1.99e-208   98957.883 - 1.99e-208   99415.848 - 1.99e-208
+JTTDCMut+I+G4    -49562.709   99239.418 - 2.26e-270   99241.514 - 5.12e-270   99585.691 - 2.62e-245
+JTT+I+G4         -49580.112   99274.225 - 6.24e-278   99276.320 - 1.42e-277   99620.497 - 7.24e-253
+cpREV+I+G4       -49672.869   99459.738 - 3.25e-318   99461.833 - 7.37e-318   99806.010 - 3.77e-293
+Q.plant+F+I+G4   -49604.774   99361.548 - 6.81e-297   99365.281 - 6.81e-297   99823.245 - 6.81e-297
+DCMut+I+G4       -49692.110   99498.220 -        0   99500.316 -        0   99844.493 - 1.66e-301
+Dayhoff+I+G4     -49694.831   99503.661 -        0   99505.757 -        0   99849.934 - 1.09e-302
+FLU+F+I+G4       -49657.689   99467.378 - 7.13e-320   99471.110 - 7.13e-320   99929.074 - 7.13e-320
+Q.yeast+I+G4     -49834.092   99782.183 -        0   99784.279 -        0  100128.456 -        0
+mtInv+F+I+G4     -49787.439   99726.878 -        0   99730.610 -        0  100188.575 -        0
+Q.mammal+F+I+G4  -49833.463   99818.925 -        0   99822.658 -        0  100280.622 -        0
+rtREV+I+G4       -49929.449   99972.898 -        0   99974.994 -        0  100319.171 -        0
+Q.insect+I+G4    -49946.707  100007.414 -        0  100009.509 -        0  100353.686 -        0
+Q.plant+I+G4     -50026.139  100166.278 -        0  100168.374 -        0  100512.551 -        0
+mtREV+F+I+G4     -49969.949  100091.899 -        0  100095.631 -        0  100553.596 -        0
+mtZOA+F+I+G4     -49974.604  100101.207 -        0  100104.939 -        0  100562.904 -        0
+HIVb+F+I+G4      -50118.324  100388.648 -        0  100392.380 -        0  100850.345 -        0
+mtMet+F+I+G4     -50118.956  100389.912 -        0  100393.644 -        0  100851.609 -        0
+Q.bird+F+I+G4    -50157.417  100466.834 -        0  100470.566 -        0  100928.531 -        0
+FLU+I+G4         -50287.247  100688.493 -        0  100690.589 -        0  101034.766 -        0
+LG+I             -50353.912  100819.825 -        0  100821.848 -        0  101160.023 -        0
+Q.mammal+I+G4    -50394.877  100903.753 -        0  100905.849 -        0  101250.026 -        0
+mtART+F+I+G4     -50341.005  100834.010 -        0  100837.742 -        0  101295.707 -        0
+mtVer+F+I+G4     -50567.228  101286.455 -        0  101290.187 -        0  101748.152 -        0
+Q.bird+I+G4      -50685.744  101485.487 -        0  101487.583 -        0  101831.760 -        0
+LG               -50751.439  101612.877 -        0  101614.829 -        0  101947.000 -        0
+HIVb+I+G4        -50853.882  101821.763 -        0  101823.859 -        0  102168.036 -        0
+FLAVI+F+I+G4     -50787.636  101727.271 -        0  101731.004 -        0  102188.968 -        0
+mtMAM+F+I+G4     -50923.281  101998.562 -        0  102002.294 -        0  102460.259 -        0
+HIVw+F+I+G4      -50927.751  102007.503 -        0  102011.235 -        0  102469.200 -        0
+FLAVI+I+G4       -51330.048  102774.095 -        0  102776.191 -        0  103120.368 -        0
+mtZOA+I+G4       -51599.726  103313.451 -        0  103315.547 -        0  103659.724 -        0
+mtREV+I+G4       -52044.053  104202.106 -        0  104204.202 -        0  104548.379 -        0
+HIVw+I+G4        -52279.563  104673.125 -        0  104675.221 -        0  105019.398 -        0
+mtMet+I+G4       -52521.416  105156.833 -        0  105158.929 -        0  105503.106 -        0
+mtART+I+G4       -52552.436  105218.873 -        0  105220.968 -        0  105565.145 -        0
+mtVer+I+G4       -52605.748  105325.497 -        0  105327.592 -        0  105671.770 -        0
+mtInv+I+G4       -52965.265  106044.530 -        0  106046.626 -        0  106390.803 -        0
+mtMAM+I+G4       -53098.537  106311.074 -        0  106313.170 -        0  106657.347 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: WAG+F+I+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1024
+  pi(R) = 0.0316
+  pi(N) = 0.0508
+  pi(D) = 0.0783
+  pi(C) = 0.0074
+  pi(Q) = 0.0338
+  pi(E) = 0.0587
+  pi(G) = 0.1092
+  pi(H) = 0.0196
+  pi(I) = 0.0436
+  pi(L) = 0.0672
+  pi(K) = 0.0377
+  pi(M) = 0.0228
+  pi(F) = 0.0447
+  pi(P) = 0.0411
+  pi(S) = 0.0639
+  pi(T) = 0.0690
+  pi(W) = 0.0166
+  pi(Y) = 0.0377
+  pi(V) = 0.0640
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0275
+Gamma shape alpha: 1.6233
+
+ Category  Relative_rate  Proportion
+  0         0              0.0275
+  1         0.2506         0.2431
+  2         0.6250         0.2431
+  3         1.0868         0.2431
+  4         2.1506         0.2431
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -48921.0887 (s.e. 869.6833)
+Unconstrained log-likelihood (without tree): -21881.0601
+Number of free parameters (#branches + #model parameters): 76
+Akaike information criterion (AIC) score: 97994.1773
+Corrected Akaike information criterion (AICc) score: 97997.9095
+Bayesian information criterion (BIC) score: 98455.8743
+
+Total tree length (sum of branch lengths): 23.8458
+Sum of internal branch lengths: 9.1034 (38.1762% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'WP_106502674.1_Cyanobium_usitatum' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--------WP_106502674.1_Cyanobium_usitatum
+|
+|         +--------WP_225867717.1_Marinosynechococcus
+|      +--| (97.8/94)
+|      |  |  +----WP_011133045.1_Prochlorococcus_marinus
+|      |  +--| (98.3/99)
+|      |     +------WP_131726421.1_Cognatishimia_activa
+|   +--| (92.3/42)
+|   |  |              +--WP_198662851.1_Cohaesibacter_intestini
+|   |  |        +-----| (100/100)
+|   |  |        |     +--WP_138147770.1_Cohaesibacter_sp._CAU_1516
+|   |  |     +--| (78.2/66)
+|   |  |     |  |  +--WP_199559095.1_Nioella_nitratireducens
+|   |  |     |  +--| (99.9/100)
+|   |  |     |     +--WP_206052330.1_Nioella_ostreopsis
+|   |  |  +--| (74.9/64)
+|   |  |  |  |     +---WP_085878403.1_Roseisalinus_antarcticus
+|   |  |  |  |  +--| (96.1/96)
+|   |  |  |  |  |  +---WP_207903571.1_Rhodovulum_marinum
+|   |  |  |  +--| (96.5/93)
+|   |  |  |     +--WP_211369142.1_Roseospira_navarrensis
+|   |  +--| (99.7/86)
+|   |     +-----WP_153712568.1_Litoricola_lipolytica
++---| (100/99)
+|   |     +----WP_201737941.1_Synechococcus_sp._BS55D
+|   |  +--| (62.5/38)
+|   |  |  |                                      +-------------KOO36031.1_Chrysochromulina_tobinii
+|   |  |  |                                   +--| (34.7/75)
+|   |  |  |                                   |  +--------CAE7435508.1_Symbiodinium_sp._CCMP2592
+|   |  |  |                                +--| (86.1/81)
+|   |  |  |                                |  |          +----CAE4636053.1_Ditylum_brightwellii
+|   |  |  |                                |  |     +----| (100/100)
+|   |  |  |                                |  |     |    +---EJK59653.1_Thalassiosira_oceanica
+|   |  |  |                                |  +-----| (100/100)
+|   |  |  |                                |        |  +------VEU39203.1_Pseudo-nitzschia_multistriata
+|   |  |  |                                |        +--| (75.7/89)
+|   |  |  |                                |           +-------XP_002186060.1_Phaeodactylum_tricornutum_CCAP_1055_1
+|   |  |  +--------------------------------| (100/100)
+|   |  |                                   |  +---------XP_022840885.1_Ostreococcus_tauri
+|   |  |                                   +--| (94.8/97)
+|   |  |                                      +---------XP_007515803.1_Bathycoccus_prasinos
+|   +--| (65.9/41)
+|      |         +--WP_022604185.1_Rubidibacter_lacunae
+|      |      +--| (38.5/77)
+|      |      |  |  +--WP_008276643.1_Crocosphaera_chwakensis
+|      |      |  +--| (99.7/100)
+|      |      |     +---WP_253274167.1_Myxosarcina_sp._GI1
+|      |   +--| (99.9/100)
+|      |   |  |  +--WP_232225246.1_Dactylococcopsis_salina
+|      |   |  +--| (99.9/100)
+|      |   |     +--WP_015227467.1_Halothece_sp._PCC_7418
+|      +---| (100/100)
+|          |  +--WP_240866999.1_Cylindrospermopsis_raciborskii
+|          +--| (100/100)
+|             +------WP_017711208.1_Prochlorothrix_hollandica
+|
++----WP_255096526.1_Synechococcus_lacustris
+
+Tree in newick format:
+
+(WP_106502674.1_Cyanobium_usitatum:0.8897360844,(((WP_225867717.1_Marinosynechococcus:0.8896392007,(WP_011133045.1_Prochlorococcus_marinus:0.4611074588,WP_131726421.1_Cognatishimia_activa:0.6433962724)98.3/99:0.2766090053)97.8/94:0.1930085486,((((WP_198662851.1_Cohaesibacter_intestini:0.0018547332,WP_138147770.1_Cohaesibacter_sp._CAU_1516:0.0055839490)100/100:0.6152911680,(WP_199559095.1_Nioella_nitratireducens:0.3448736283,WP_206052330.1_Nioella_ostreopsis:0.2859690613)99.9/100:0.2007050164)78.2/66:0.0614881692,((WP_085878403.1_Roseisalinus_antarcticus:0.4113667574,WP_207903571.1_Rhodovulum_marinum:0.3655429112)96.1/96:0.1330476052,WP_211369142.1_Roseospira_navarrensis:0.3418958281)96.5/93:0.1315070349)74.9/64:0.0925521961,WP_153712568.1_Litoricola_lipolytica:0.6287638423)99.7/86:0.2425085802)92.3/42:0.0893781365,((WP_201737941.1_Synechococcus_sp._BS55D:0.5134128245,(((KOO36031.1_Chrysochromulina_tobinii:1.3065002213,CAE7435508.1_Symbiodinium_sp._CCMP2592:0.8958636218)34.7/75:0.1463788523,((CAE4636053.1_Ditylum_brightwellii:0.4837360412,EJK59653.1_Thalassiosira_oceanica:0.4462429547)100/100:0.4538129011,(VEU39203.1_Pseudo-nitzschia_multistriata:0.7000234408,XP_002186060.1_Phaeodactylum_tricornutum_CCAP_1055_1:0.7408629810)75.7/89:0.1942808454)100/100:0.5573000444)86.1/81:0.1712065551,(XP_022840885.1_Ostreococcus_tauri:0.9021524759,XP_007515803.1_Bathycoccus_prasinos:0.9700426953)94.8/97:0.2761278191)100/100:3.0060965350)62.5/38:0.1784185668,(((WP_022604185.1_Rubidibacter_lacunae:0.3304428097,(WP_008276643.1_Crocosphaera_chwakensis:0.0823663439,WP_253274167.1_Myxosarcina_sp._GI1:0.4070421340)99.7/100:0.2317041763)38.5/77:0.1193992378,(WP_232225246.1_Dactylococcopsis_salina:0.1680797784,WP_015227467.1_Halothece_sp._PCC_7418:0.1583387351)99.9/100:0.1579610433)99.9/100:0.2682290573,(WP_240866999.1_Cylindrospermopsis_raciborskii:0.1489089580,WP_017711208.1_Prochlorothrix_hollandica:0.7048296685)100/100:0.3529900707)100/100:0.3963126972)65.9/41:0.1387311426)100/99:0.4183814483,WP_255096526.1_Synechococcus_lacustris:0.5138216139);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -48922.883010
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--------WP_106502674.1_Cyanobium_usitatum
+|
+|            +--------WP_225867717.1_Marinosynechococcus
+|         +--| (94)
+|         |  |  +----WP_011133045.1_Prochlorococcus_marinus
+|         |  +--| (99)
+|         |     +------WP_131726421.1_Cognatishimia_activa
+|      +--| (47)
+|      |  |                 +--WP_198662851.1_Cohaesibacter_intestini
+|      |  |           +-----| (100)
+|      |  |           |     +--WP_138147770.1_Cohaesibacter_sp._CAU_1516
+|      |  |        +--| (66)
+|      |  |        |  |  +--WP_199559095.1_Nioella_nitratireducens
+|      |  |        |  +--| (100)
+|      |  |        |     +--WP_206052330.1_Nioella_ostreopsis
+|      |  |     +--| (64)
+|      |  |     |  |     +---WP_085878403.1_Roseisalinus_antarcticus
+|      |  |     |  |  +--| (96)
+|      |  |     |  |  |  +---WP_207903571.1_Rhodovulum_marinum
+|      |  |     |  +--| (93)
+|      |  |     |     +--WP_211369142.1_Roseospira_navarrensis
+|      |  |  +--| (86)
+|      |  |  |  +-----WP_153712568.1_Litoricola_lipolytica
+|      |  +--| (52)
+|      |     |                                     +-------------KOO36031.1_Chrysochromulina_tobinii
+|      |     |                                  +--| (75)
+|      |     |                                  |  +--------CAE7435508.1_Symbiodinium_sp._CCMP2592
+|      |     |                               +--| (81)
+|      |     |                               |  |          +----CAE4636053.1_Ditylum_brightwellii
+|      |     |                               |  |     +----| (100)
+|      |     |                               |  |     |    +---EJK59653.1_Thalassiosira_oceanica
+|      |     |                               |  +-----| (100)
+|      |     |                               |        |  +------VEU39203.1_Pseudo-nitzschia_multistriata
+|      |     |                               |        +--| (89)
+|      |     |                               |           +-------XP_002186060.1_Phaeodactylum_tricornutum_CCAP_1055_1
+|      |     +-------------------------------| (100)
+|      |                                     |  +--------XP_022840885.1_Ostreococcus_tauri
+|      |                                     +--| (97)
+|      |                                        +---------XP_007515803.1_Bathycoccus_prasinos
+|   +--| (37)
+|   |  |         +--WP_022604185.1_Rubidibacter_lacunae
+|   |  |      +--| (77)
+|   |  |      |  |  +--WP_008276643.1_Crocosphaera_chwakensis
+|   |  |      |  +--| (100)
+|   |  |      |     +---WP_253274167.1_Myxosarcina_sp._GI1
+|   |  |   +--| (100)
+|   |  |   |  |  +--WP_232225246.1_Dactylococcopsis_salina
+|   |  |   |  +--| (100)
+|   |  |   |     +--WP_015227467.1_Halothece_sp._PCC_7418
+|   |  +---| (100)
+|   |      |  +--WP_240866999.1_Cylindrospermopsis_raciborskii
+|   |      +--| (100)
+|   |         +------WP_017711208.1_Prochlorothrix_hollandica
++---| (99)
+|   +------WP_201737941.1_Synechococcus_sp._BS55D
+|
++----WP_255096526.1_Synechococcus_lacustris
+
+
+Consensus tree in newick format: 
+
+(WP_106502674.1_Cyanobium_usitatum:0.8742864378,((((WP_225867717.1_Marinosynechococcus:0.9002432144,(WP_011133045.1_Prochlorococcus_marinus:0.4628855759,WP_131726421.1_Cognatishimia_activa:0.6471555887)99:0.2639936523)94:0.1898492818,(((((WP_198662851.1_Cohaesibacter_intestini:0.0019679154,WP_138147770.1_Cohaesibacter_sp._CAU_1516:0.0055076619)100:0.6165735355,(WP_199559095.1_Nioella_nitratireducens:0.3478597476,WP_206052330.1_Nioella_ostreopsis:0.2846518942)100:0.1988406416)66:0.0616720338,((WP_085878403.1_Roseisalinus_antarcticus:0.4113718051,WP_207903571.1_Rhodovulum_marinum:0.3682323913)96:0.1311913393,WP_211369142.1_Roseospira_navarrensis:0.3472745095)93:0.1349389075)64:0.0829430696,WP_153712568.1_Litoricola_lipolytica:0.6309339157)86:0.1215336323,(((KOO36031.1_Chrysochromulina_tobinii:1.3128965428,CAE7435508.1_Symbiodinium_sp._CCMP2592:0.8930869489)75:0.1469007645,((CAE4636053.1_Ditylum_brightwellii:0.4859592785,EJK59653.1_Thalassiosira_oceanica:0.4464549115)100:0.4531845541,(VEU39203.1_Pseudo-nitzschia_multistriata:0.7036603423,XP_002186060.1_Phaeodactylum_tricornutum_CCAP_1055_1:0.7401941340)89:0.1989110200)100:0.5580830145)81:0.1542799946,(XP_022840885.1_Ostreococcus_tauri:0.9005815826,XP_007515803.1_Bathycoccus_prasinos:0.9767993997)97:0.2914933630)100:2.9577412727)52:0.1622346850)47:0.1296891958,(((WP_022604185.1_Rubidibacter_lacunae:0.3320847068,(WP_008276643.1_Crocosphaera_chwakensis:0.0831531804,WP_253274167.1_Myxosarcina_sp._GI1:0.4094847304)100:0.2309445360)77:0.1184179047,(WP_232225246.1_Dactylococcopsis_salina:0.1685602190,WP_015227467.1_Halothece_sp._PCC_7418:0.1585634244)100:0.1588530632)100:0.2710484797,(WP_240866999.1_Cylindrospermopsis_raciborskii:0.1495411053,WP_017711208.1_Prochlorothrix_hollandica:0.7065845772)100:0.3527127976)100:0.4144903375)37:0.1176267664,WP_201737941.1_Synechococcus_sp._BS55D:0.6519325530)99:0.4130149846,WP_255096526.1_Synechococcus_lacustris:0.5314346884);
+
+TIME STAMP
+----------
+
+Date and time: Tue May 23 16:00:05 2023
+Total CPU time used: 476.546875 seconds (0h:7m:56s)
+Total wall-clock time used: 80.6425528 seconds (0h:1m:20s)
+
