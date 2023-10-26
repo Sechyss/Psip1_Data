@@ -12,7 +12,7 @@ domain of Psip1.
 Scripts folder contains some of the scripts used to analyze and produce the figures in the paper. Raw data is not 
 provided, but it can be retrieved if requested.
 
-- [Psip1_activity_PaperfigFig1.py](Scripts%2FPsip1_activity_PaperfigFig1.py) - Output the activity of Psip1 in the presence of different metals, pH, substrates and 
+- [Psip1_activity_PaperfigFig1.py](Psip1Paper_SuppFiles%2FScripts%2FPsip1_activity_PaperfigFig1.py) - Output the activity of Psip1 in the presence of different metals, pH, substrates and 
 concentrations of PNPP represented in Figure 1.
 - [BlastP_clustergram.py](Scripts%2FBlastP_clustergram.py) - Output the dendrogram of all phosphatases and the grouping based on agglomerative hyrarchical 
 clustering in Figure 2.
