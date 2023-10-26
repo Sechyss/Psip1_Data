@@ -1,6 +1,6 @@
 # Psip1 data and scripts
 
-Files in this directory are intermediate. These include HMM models for Psip1, for eukaryotic PhoX, eukaryotic PhoAaty, 
+Files in this directory include HMM models for Psip1, for eukaryotic PhoX, eukaryotic PhoAaty, 
 Synechococcus and cyanobacterial PhoAaty, as well as the fasta files used to create this models.
 
 Additional files include [PMEs_Psip1_AphoAty_sequences.faa](Psip1Paper_SuppFiles%2FPMEs_Psip1_AphoAty_sequences.faa) which contains all the 
