@@ -3,7 +3,7 @@
 Files in this directory are intermediate. These include HMM models for Psip1, for eukaryotic PhoX, eukaryotic PhoAaty, 
 Synechococcus and cyanobacterial PhoAaty, as well as the fasta files used to create this models.
 
-Additional files include [PMEs_Psip1_AphoAty_sequences.faa](PMEs_Psip1_AphoAty_sequences.faa) which contains all the 
+Additional files include [PMEs_Psip1_AphoAty_sequences.faa](Psip1Paper_SuppFiles/PMEs_Psip1_AphoAty_sequences.faa) which contains all the 
 sequences of known phosphatases used to create the dendrogram. [RefSe_plusAndrew_-20.txt](RefSe_plusAndrew_-20.txt) and
 subsequent derivatives include the sequences used to create the phylogenetic tree in Figure 5 which contains the putative
 domain of Psip1.
